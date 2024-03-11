@@ -20,34 +20,39 @@ This project is a personal achievement showcased on a webpage. The webpage inclu
 <h2>Program walk-through:</h2>
 
 <p align="center">
+Web Animation Scroll: <b>AOS & JS</b> <br/>
+<img src="https://media.giphy.com/media/qpcdbmBZeBclpHIM5A/giphy.gif" height="80%" width="80%" alt="AOS & JS"/>
+<br />
+<br />
+Navigation & Arrow: <b>AOS & JS</b> <br/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGRodGNxYmdhYnAyZHR6aG84NnhkMjM0ZzhtMHRwMjhnM2N3dWVubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kg0Yhbb3dCtZm1txKL/giphy.gif" height="80%" width="80%" alt="AOS & JS"/>
+<br />
+<br />
 Front of Webpage: <br/>
-<img src="https://imgur.com/vqPc0oc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vqPc0oc.png" height="80%" width="80%" alt="Front Of Webpage"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Navigation Bar:  <br/>
+<img src="https://imgur.com/CM2Kwz2.png" height="80%" width="80%" alt="Nav Bar"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Production Page: <br/>
+<img src="https://imgur.com/N9PgPOe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Journey Page:  <br/>
+<img src="https://imgur.com/dVAzxrT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Mobile Page: <br/>
+<div align="center">
+<img src="https://imgur.com/shtvDgn.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/7DjBm1B.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/eKU2Cgj.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+</div>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <!--
  ```diff
 - text in red
