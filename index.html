@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--All the codes here are hand-written. Credit: Lots of Youtube tutorials/ CSS HTML help pages.
+	I have used fontawesome stylesheet for some icons and AOS script for some animation.
+	I grabbed some icon from fontawesome: https://fontawesome.com/
+	The github page for AOS(animate on scroll): https://github.com/michalsnik/aos
+	I didn't used Bootstrap, however the code should work on all screen sizes with responsiveness.
+	Note that some features won't work on other browsers, 
+	as I have only used vendor prefix of chrome, android and safari browsers. -webkit-.
+	Name: Rai Phirens StudentID: 55742987
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phirens</title> 
+	<link rel="icon" type="image/ico" href="images/logo.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<div class="menu-toggler"> <!-- This is the menu toggler, which shows all the menu items -->
+			<div class="bar half start"></div>
+			<div class="bar"></div>
+			<div class="bar half end"></div>
+		</div>
+		<nav class="top-nav"> <!-- All the navigation -->
+			<ul class="nav-list"> 
+				<li>
+					<a href="#home" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#achievement" class="nav-link">Achievement</a>
+				</li>
+				<li>
+					<a href="#production" class="nav-link">Production</a>
+				</li>
+				<li>
+					<a href="#overview" class="nav-link">Overview</a>
+				</li>
+				<li>
+					<a href="#journey" class="nav-link">Journey</a>
+				</li>
+				<li>
+					<a href="#insight" class="nav-link">Insight</a>
+				</li>
+				
+			</ul>
+		</nav>
+		<div class="landing-text"> <!-- Home Page -->
+			<h1>Phirens</h1>
+			<h6>My Achievement | Kinetic Typography</h6>
+		</div>
+	</header>
+	
+	<section class="achievement" id="achievement"> <!-- Achievement Section -->
+		<div class="container"> <!-- Container containing all the elements -->
+			<div class="profile-img" data-aos="fade-right" data-aos-delay="300"> <!-- Adding the embedded lyric video -->
+				<iframe width="560rem" height="315" src="https://www.youtube.com/embed/8BB67WiakT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="achievement-details" data-aos="fade-left" data-aos-delay="600"> <!-- using AOS Animation -->
+				<div class="achievement-heading">
+					<h1>Achievement</h1> <!-- Achievement heading and paragraphs -->
+					<h6></h6>
+				</div>
+				<p>
+					Using <b>Kinetic Typography</b> as my foundation, I created a <b>lyric video</b> for my friend's band.
+					It was a crucial turning point for me, because the task I was about to dive into
+					was a very unknown territory for me. I knew the basics, but that wasn't going to cut it.
+					I am a perfectionist, and I always wish to meet my standards that I set for myself.
+				</p>
+				<div class="social-media"> <!-- Social Media Section -->
+					<ul class="nav-list">
+						<li>
+							<a href="https://www.facebook.com/phirens" target="_blank" class="icon-link"> <!-- Use of FontAwesome stylesheet-->
+								<i class="fab fa-facebook-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/phirensx/" target="_blank" class="icon-link">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/watch?v=8BB67WiakT8" target="_blank" class="icon-link">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="production" id="production"> <!-- Production Section -->
+		<div class="container">
+			<div class="section-heading">
+				<h1>Production</h1>
+				<h6>Programs used and the general workflow.</h6>
+			</div>
+			<div class="my-skills">
+				<div class="skills" data-aos="fade-in" data-aos-delay="300">
+					<div class="icon-container">
+						<i class="fas fa-camera"></i> <!-- Adding Camera Icon -->
+					</div>
+					<h1>Photoshop</h1>
+					<p>
+						Photoshop is a great tool that helped me map and
+						organize everything such as text fonts, layouts and text elements
+						before I proceeded to After Effects.
+					</p>
+				</div>
+				<div class="skills" data-aos="fade-in" data-aos-delay="600">
+					<div class="icon-container">
+						<i class="fas fa-object-ungroup"></i>
+					</div>
+					<h1>After Effects</h1>
+					<p>
+						This is where all the magic happened such as digital effects and motion graphics.
+						With all the 3D elements and graphic intensive 
+						composition, my PC nearly fried.
+					</p>
+				</div>
+				<div class="skills" data-aos="fade-in" data-aos-delay="900">
+					<div class="icon-container">
+						<i class="fas fa-video"></i>
+					</div>
+					<h1>Premiere Pro</h1>
+					<p>
+						The final retouching, color correction and overlays were done
+						here. All the work were imported from AE to Premiere Pro, creating 
+						an organised and clean workflow. 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="overview" id="overview"> <!-- Overview Section -->
+		<div class="container">
+			<div class="section-heading">
+				<h1>Overview</h1>
+				<h6>What is <b><i>Kinetic</i></b> Typography?</h6>
+			</div>
+			<div class="overview-item">
+				<div class="overview-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+					<img src="images/portitem1.jpg" alt="">
+				</div>
+				<div class="overview-description" data-aos="fade-left" data-aos-delay="600">
+					<h6>Definition</h6>
+					<h1>Kinetic Typography</h1>
+					<p>
+						Also known as Motion Typography, it is the art of integrating movement with text. 
+						It attempts to engage a viewer's attention by forcing them to visually track words
+						which move across, up or down the page. It also uses colour, size and font selection
+						to highlight particular words. This can in turn evoke particular emotions in the viewer.
+					</p>
+					<a href="https://www.creativebloq.com/typography/examples-kinetic-typography-11121304"
+					   target="_blank" class="cta">View Examples</a> <!-- Link to go to other websites -->
+				</div>
+			</div>
+			<div class="overview-item">
+				<div class="overview-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+					<h6>Origin</h6>
+					<h1>Term History</h1>
+					<p>
+						The term Kinetic Typography dates back to the late 1950s. An early pioneer was <b>Saul Bass</b>,
+						an award-winning film-maker and graphic designer who first used the technique in Alfred 
+						Hitchcock's film <b>North by Northwest</b> in 1959. The film's opening sequence featured credits
+						that flew in from off-screen and faded out into the film itself.
+					</p>
+					<a href="https://www.youtube.com/watch?v=1ON67uYwGaw" target="_blank" class="cta">Watch Sequence</a>
+				</div>	
+				<div class="overview-img" data-aos="fade-left" data-aos-delay="1200">
+					<img src="images/portitem2.jpg" alt="">
+				</div>
+			</div>
+			<div class="overview-item">
+				<div class="overview-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+					<img src="images/portitem3.jpg" alt="">
+				</div>
+				<div class="overview-description" data-aos="fade-left" data-aos-delay="1800">
+					<h6>Mastery</h6>
+					<h1>Teach Yourself</h1>
+					<p>
+						First thing to do before even downloading the program such as After Effects is to learn as much
+						as possible about Typography such as line-spacing, typefaces and so forth. Understanding how text
+						interacts and works is crucial and builds a strong foundation. Finally, jump into 
+						After Effects and start creating your very own Kinetic Typography. 
+					</p>
+					<a href="https://www.youtube.com/watch?v=ynsakNGWHvU&list=PLLiwbv3dzI46n40KPAvqA9Jpl_IAXQyuU"
+					   target="_blank" class="cta">Tutorial Playlist</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="journey" id="journey"> <!-- Journey Section --> 
+		<div class="container">
+			<div class="section-heading">
+				<h1>Journey</h1>
+				<h6>My skills and technique improved significantly after creating the lyric video.</h6>
+			</div>
+			<div class="timeline" data-aos="fade-down" data-aos-delay="300">
+				<ul>
+					<li class="date" data-date="2017">
+						<h1>Beginner</h1>
+						<p>
+							I worked on the lyric video for atleast 6 months in this period. I was a complete novice,
+							therefore I required a lot of time.
+						</p>
+					</li>
+					<li class="date" data-date="2018">
+						<h1>Intermediate</h1>
+						<p>
+							Once I finished the video. I grew more confident on what I could do. I took on some
+							other intensive projects to hone my skillset.
+						</p>
+					</li>
+					<li class="date" data-date="2019">
+						<h1>Advanced</h1>
+						<p>
+							I finally get to learn the Adobe programs the proper way. Even though my foundation 
+							is strong, I still can learn some basic techniques that I didn't knew, or learnt wrongly.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section class="insight" id="insight">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Insight</h1>
+				<h6>My feelings and opinion towards the video accomplishment.</h6>
+			</div>
+			<div class="overview-item">
+				<div class="overview-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+					<img src="images/profile.jpeg" alt="">
+				</div>
+				<div class="overview-description" data-aos="fade-left" data-aos-delay="300">
+					<h6>Conclusion</h6>
+					<h1>Final Takeaways</h1>
+					<p>
+						I fell in love with the production process and I could see myself 
+						choosing a career path that aligns with what I achieved to do. I will
+						continue my journey, and when I look back, this achievment was the 
+						thing I'll remember that lit fire to my now burning passion. This was the very first step I took. 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="copyright">
+		<div class="up" id="up">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+		<p>&copy; 2019 Rai Phirens - StudentID 55742987</p>
+	</footer>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+	
+</body>
+</html>
