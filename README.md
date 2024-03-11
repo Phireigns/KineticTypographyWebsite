@@ -15,7 +15,7 @@ This project is a personal achievement showcased on a webpage. The webpage inclu
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2>WebApp walk-through:</h2>
 
 <p align="center">
 Web Animation Scroll: <b>AOS & JS</b> <br/>
