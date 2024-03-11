@@ -1,7 +1,5 @@
 <h1>Kinetic Typography Website</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 This project is a personal achievement showcased on a webpage. The webpage includes several sections that provide an overview of kinetic typography, my journey, and insights. This webpage is built using HTML, CSS, and JavaScript. The HTML structure includes sections containing each relevant content and images. The CSS is used to style the webpage, including layout, typography, and visual effects. The AOS (Animate On Scroll) library is utilized to add fade-in animations to elements as the user scrolls. JavaScript is used to enhance the functionality of the webpage, including smooth scrolling to different sections and implementing the "back to top" button. External libraries, such as jQuery and AOS, are included through CDN (Content Delivery Network) links. The main.js file contains custom JavaScript code to handle specific interactions and event listeners on the webpage.
 <br />
